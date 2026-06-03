@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import { logger, SNIPE_LIST_REFRESH_INTERVAL } from '../helpers';
+import { logger, SNIPE_LIST_REFRESH_INTERVAL } from '../helpers'; 
 
 export class SnipeListCache {
   private snipeList: string[] = [];
