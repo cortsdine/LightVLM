@@ -11,7 +11,7 @@ import { TransactionExecutor } from './transaction-executor.interface';
 import { logger } from '../helpers';
 import axios, { AxiosError } from 'axios';
 import bs58 from 'bs58';
-import { Currency, CurrencyAmount } from '@raydium-io/raydium-sdk';
+import { Currency, CurrencyAmount } from '@raydium-io/raydium-sdk'; 
 
 export class JitoTransactionExecutor implements TransactionExecutor {
   // https://jito-labs.gitbook.io/mev/searcher-resources/json-rpc-api-reference/bundles/gettipaccounts
