@@ -147,10 +147,9 @@ To collect more information on an issue, please change `LOG_LEVEL` to `debug`.
 - If you see following error in your log file:  
   `Error: No SOL token account found in wallet: `  
   it means that wallet you provided doesn't have USDC/WSOL token account.
-  - FIX: Go to https://jup.ag/ and swap some SOL to USDC/WSOL. For example when you swap SOL to WSOL you should see it in wallet as shown below:
+  - FIX: Go to https://jup.ag/ and swap some SOL to USDC/WSOL.
 
-![wsol](readme/wsol.png)
-
+    
 ## Support
 
 
